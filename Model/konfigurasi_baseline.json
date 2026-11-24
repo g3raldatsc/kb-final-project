@@ -1,0 +1,12 @@
+{
+  "moving_average_k": 2,
+  "regresi_linear_lag": 7,
+  "perceptron_lag": 5,
+  "fts_sama_panjang_K_rancangan": 15,
+  "fts_sama_panjang_K_rujukan": 150,
+  "arima_orde": [
+    3,
+    1,
+    2
+  ]
+}
