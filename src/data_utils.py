@@ -24,3 +24,8 @@ def muat_pihps_lebar(path, komoditas="Cabai Rawit Merah"):
 
     seri = pd.Series(harga.values, index=pd.DatetimeIndex(tanggal, name="tanggal"), name="harga")
     return seri.sort_index()
+
+def muat_data_bersih(path):
+    """ini buat baca berkas CSV data bersih (kolom: tanggal, harga) menjadi Series berindeks tanggal."""
+    df = pd.read_csv(path, parse_dates=["tanggal"])
+    return df.set_index("tanggal")["harga"].sort_index()
