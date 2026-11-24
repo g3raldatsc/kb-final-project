@@ -1,0 +1,32 @@
+# Virtual environment
+z_kb_fp/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# konfigurasi lokal
+.env
+.streamlit/secrets.toml
+
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Berkas sementara Excel dan Office (muncul saat file xlsx sedang dibuka)
+~$*
+
+# Log dan berkas sementara
+*.log
+*.tmp
